@@ -26,14 +26,17 @@ Partial Class Pocetna
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.VerzijaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.JednostavniKalkulatorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.JednostavniKalkulatorToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.ZnanstveniKalkulatorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FormuleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VerzijaToolStripMenuItem, Me.JednostavniKalkulatorToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VerzijaToolStripMenuItem, Me.JednostavniKalkulatorToolStripMenuItem, Me.FormuleToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(803, 24)
@@ -48,18 +51,37 @@ Partial Class Pocetna
         '
         'JednostavniKalkulatorToolStripMenuItem
         '
+        Me.JednostavniKalkulatorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.JednostavniKalkulatorToolStripMenuItem1, Me.ZnanstveniKalkulatorToolStripMenuItem})
         Me.JednostavniKalkulatorToolStripMenuItem.Name = "JednostavniKalkulatorToolStripMenuItem"
-        Me.JednostavniKalkulatorToolStripMenuItem.Size = New System.Drawing.Size(136, 20)
-        Me.JednostavniKalkulatorToolStripMenuItem.Text = "Jednostavni kalkulator"
+        Me.JednostavniKalkulatorToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
+        Me.JednostavniKalkulatorToolStripMenuItem.Text = "Kalkulator"
+        '
+        'JednostavniKalkulatorToolStripMenuItem1
+        '
+        Me.JednostavniKalkulatorToolStripMenuItem1.Name = "JednostavniKalkulatorToolStripMenuItem1"
+        Me.JednostavniKalkulatorToolStripMenuItem1.Size = New System.Drawing.Size(191, 22)
+        Me.JednostavniKalkulatorToolStripMenuItem1.Text = "Jednostavni kalkulator"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 27)
+        Me.PictureBox1.Location = New System.Drawing.Point(1, 27)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(802, 533)
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
+        '
+        'ZnanstveniKalkulatorToolStripMenuItem
+        '
+        Me.ZnanstveniKalkulatorToolStripMenuItem.Name = "ZnanstveniKalkulatorToolStripMenuItem"
+        Me.ZnanstveniKalkulatorToolStripMenuItem.Size = New System.Drawing.Size(191, 22)
+        Me.ZnanstveniKalkulatorToolStripMenuItem.Text = "Znanstveni kalkulator"
+        '
+        'FormuleToolStripMenuItem
+        '
+        Me.FormuleToolStripMenuItem.Name = "FormuleToolStripMenuItem"
+        Me.FormuleToolStripMenuItem.Size = New System.Drawing.Size(63, 20)
+        Me.FormuleToolStripMenuItem.Text = "Formule"
         '
         'Pocetna
         '
@@ -83,4 +105,7 @@ Partial Class Pocetna
     Friend WithEvents VerzijaToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents JednostavniKalkulatorToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents JednostavniKalkulatorToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ZnanstveniKalkulatorToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents FormuleToolStripMenuItem As ToolStripMenuItem
 End Class

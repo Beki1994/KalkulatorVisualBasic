@@ -103,6 +103,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="JednostavniKalkulator.resx">
+      <DependentUpon>JednostavniKalkulator.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pocetna.resx">
       <DependentUpon>Pocetna.vb</DependentUpon>
     </EmbeddedResource>

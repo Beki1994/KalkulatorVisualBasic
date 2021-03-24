@@ -10,3 +10,4 @@ D:\Programiranje 1 PITUP\Kalkulator\Kalkulator\obj\Debug\Kalkulator.exe
 D:\Programiranje 1 PITUP\Kalkulator\Kalkulator\obj\Debug\Kalkulator.xml
 D:\Programiranje 1 PITUP\Kalkulator\Kalkulator\obj\Debug\Kalkulator.pdb
 D:\Programiranje 1 PITUP\Kalkulator\Kalkulator\obj\Debug\Kalkulator.Pocetna.resources
+D:\Programiranje 1 PITUP\Kalkulator\Kalkulator\obj\Debug\Kalkulator.JednostavniKalkulator.resources

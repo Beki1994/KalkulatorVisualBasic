@@ -4,10 +4,10 @@
     End Sub
 
     Private Sub VerzijaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerzijaToolStripMenuItem.Click
-        MsgBox("Prva Verzija", MsgBoxStyle.MsgBoxHelp, "Informacije o verziji")
+        MsgBox("Druga Verzija", MsgBoxStyle.OkOnly, "Informacije o verziji")
     End Sub
 
-    Private Sub JednostavniKalkulatorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles JednostavniKalkulatorToolStripMenuItem.Click
+    Private Sub JednostavniKalkulatorToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles JednostavniKalkulatorToolStripMenuItem1.Click
         JednostavniKalkulator.Show()
     End Sub
 End Class
